@@ -35,3 +35,4 @@ jobs:
           version_label: vessanseinalta-${{ github.run_number }}-${{ github.sha }}
           region: eu-north-1
           deployment_package: deploy.zip
+          existing_bucket_name: vessanseinalta-be
