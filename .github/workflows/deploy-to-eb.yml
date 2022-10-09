@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npm build
+          npm run build
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*' src/\*
